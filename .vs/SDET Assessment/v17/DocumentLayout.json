@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\weather tests\\weathertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\website tests\\weather tests\\weathertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\api tests\\apitestssuccesscases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\api tests\\apitestssuccesscases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\resources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\resources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\counter tests\\countertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\website tests\\counter tests\\countertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\base tests\\navigationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\website tests\\base tests\\navigationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\base tests\\abstractbasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\website tests\\base tests\\abstractbasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\api tests\\endtoendtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\api tests\\endtoendtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\api tests\\apitestsfailurecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\api tests\\apitestsfailurecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\input\\forecast.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\input\\forecast.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\sdet assessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\sdet assessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CounterTests.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Counter Tests\\CounterTests.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Counter Tests\\CounterTests.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Counter Tests\\CounterTests.cs",
+              "RelativeToolTip": "SDET Assessment\\Website Tests\\Counter Tests\\CounterTests.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:48:56.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherTests.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Weather Tests\\WeatherTests.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Weather Tests\\WeatherTests.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Weather Tests\\WeatherTests.cs",
+              "RelativeToolTip": "SDET Assessment\\Website Tests\\Weather Tests\\WeatherTests.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:15:15.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resources.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Resources.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\Resources.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Resources.cs",
+              "RelativeToolTip": "SDET Assessment\\Resources.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:15:39.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "APITestsSuccessCases.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\APITestsSuccessCases.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\API Tests\\APITestsSuccessCases.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\APITestsSuccessCases.cs",
+              "RelativeToolTip": "SDET Assessment\\API Tests\\APITestsSuccessCases.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAowF0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:11:39.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\README.md",
+              "RelativeDocumentMoniker": "SDET Assessment\\README.md",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\README.md*",
+              "RelativeToolTip": "SDET Assessment\\README.md*",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEcAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-04T19:10:02.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavigationTests.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "RelativeToolTip": "SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwFgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T02:22:00.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AbstractBaseTests.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
+              "RelativeToolTip": "SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADgv0YAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:07:48.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EndToEndTest.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\EndToEndTest.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\API Tests\\EndToEndTest.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\EndToEndTest.cs",
+              "RelativeToolTip": "SDET Assessment\\API Tests\\EndToEndTest.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAUwGsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:30:51.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "APITestsFailureCases.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\APITestsFailureCases.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\API Tests\\APITestsFailureCases.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\APITestsFailureCases.cs",
+              "RelativeToolTip": "SDET Assessment\\API Tests\\APITestsFailureCases.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:31:36.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "forecast.json",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\input\\forecast.json",
+              "RelativeDocumentMoniker": "SDET Assessment\\input\\forecast.json",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\input\\forecast.json",
+              "RelativeToolTip": "SDET Assessment\\input\\forecast.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T23:55:38.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SDET Assessment.csproj",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\SDET Assessment.csproj",
+              "RelativeDocumentMoniker": "SDET Assessment\\SDET Assessment.csproj",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\SDET Assessment.csproj",
+              "RelativeToolTip": "SDET Assessment\\SDET Assessment.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-04T13:48:25.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
