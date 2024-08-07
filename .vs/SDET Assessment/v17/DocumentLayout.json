@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\base tests\\abstractbasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\website tests\\base tests\\abstractbasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\api tests\\endtoendtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\api tests\\endtoendtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\api tests\\apitestsfailurecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\api tests\\apitestsfailurecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\base tests\\abstractbasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\website tests\\base tests\\abstractbasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\counter tests\\countertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\website tests\\base tests\\navigationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\website tests\\base tests\\navigationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\api tests\\apitestsfailurecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|solutionrelative:sdet assessment\\api tests\\apitestsfailurecases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A72E9E13-E699-474A-847E-B80D4602A84F}|SDET Assessment\\SDET Assessment.csproj|c:\\users\\mailt\\source\\repos\\sdet assessment\\sdet assessment\\api tests\\apitestssuccesscases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,37 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AbstractBaseTests.cs",
               "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
               "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
               "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
               "RelativeToolTip": "SDET Assessment\\Website Tests\\Base Tests\\AbstractBaseTests.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAiwDsAAAAJAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAA2wD0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T13:07:48.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavigationTests.cs",
-              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
-              "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
-              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
-              "RelativeToolTip": "SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAIwIsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T02:22:00.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CounterTests.cs",
               "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Counter Tests\\CounterTests.cs",
               "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Counter Tests\\CounterTests.cs",
@@ -97,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherTests.cs",
               "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Weather Tests\\WeatherTests.cs",
               "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Weather Tests\\WeatherTests.cs",
@@ -110,33 +97,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EndToEndTest.cs",
               "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\EndToEndTest.cs",
               "RelativeDocumentMoniker": "SDET Assessment\\API Tests\\EndToEndTest.cs",
               "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\EndToEndTest.cs",
               "RelativeToolTip": "SDET Assessment\\API Tests\\EndToEndTest.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAUwBcAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T04:30:51.662Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "APITestsFailureCases.cs",
               "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\APITestsFailureCases.cs",
               "RelativeDocumentMoniker": "SDET Assessment\\API Tests\\APITestsFailureCases.cs",
               "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\API Tests\\APITestsFailureCases.cs",
               "RelativeToolTip": "SDET Assessment\\API Tests\\APITestsFailureCases.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAUwHkAAAA2AAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwHkAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T18:31:36.235Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavigationTests.cs",
+              "DocumentMoniker": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "RelativeDocumentMoniker": "SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "ToolTip": "C:\\Users\\mailt\\source\\repos\\SDET Assessment\\SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "RelativeToolTip": "SDET Assessment\\Website Tests\\Base Tests\\NavigationTests.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAIwIsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T02:22:00.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
