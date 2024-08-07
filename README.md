@@ -17,9 +17,10 @@ fails when it should have succeeded. This test is located at:
 
 This test appears to be a little flaky, but only when running the entire test suite. 
 When running individually, I can run it and it passes. I can run it 30 times consecutively
-without a single failure, but when running the whole suite this test fails. I suspect
-it is either a changing-browser timing issue (the test suite would be oscillating between 
-Chrome/Firefox/Edge), or an issue with how I setup the download location for Chrome. 
+without a single failure, but when running the whole suite this test fails. Due to the fact
+that this same download step appears to work fine in the `End_To_End_Integration_Test()`, I suspect
+it is likely a changing-browser timing issue -- the test suite would be oscillating between 
+Chrome/Firefox/Edge, whereas when running a single test continuously it would use the same browser.  
 
 The rest of the tests which fail on this report, described below, were deliberately left 
 failing as my interpretation of how the API/website ought to work.
