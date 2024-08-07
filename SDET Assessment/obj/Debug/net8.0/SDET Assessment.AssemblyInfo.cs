@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SDET Assessment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb90aafd9bf3c076a596caf274e01025ab2237e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SDET Assessment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SDET Assessment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

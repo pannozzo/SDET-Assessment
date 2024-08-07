@@ -105,3 +105,4 @@ C:\Users\mailt\source\repos\SDET Assessment\SDET Assessment\obj\Debug\net8.0\ref
 C:\Users\mailt\source\repos\SDET Assessment\SDET Assessment\bin\Debug\net8.0\SeleniumExtras.WaitHelpers.dll
 C:\Users\mailt\source\repos\SDET Assessment\SDET Assessment\bin\Debug\net8.0\input\forecast.json
 C:\Users\mailt\source\repos\SDET Assessment\SDET Assessment\bin\Debug\net8.0\input\invalidJSON.json
+C:\Users\mailt\source\repos\SDET Assessment\SDET Assessment\obj\Debug\net8.0\SDET Assessment.sourcelink.json

@@ -1,11 +1,9 @@
-using System.Net;
-using System.Net.Http.Json;
-using System.Net.Http.Headers;
-using static SDET_Assessment.Resources;
-using System.Globalization;
 using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
+using System.Net;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text.RegularExpressions;
+using static SDET_Assessment.Resources;
 
 namespace SDET_Assessment
 {
@@ -20,7 +18,7 @@ namespace SDET_Assessment
             httpClient = new HttpClient();
             httpClient.BaseAddress = new Uri("http://localhost:8081/");
             httpClient.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json") );
+                new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
         [TearDown]
@@ -29,15 +27,12 @@ namespace SDET_Assessment
             httpClient.Dispose();
         }
 
-        //Testing a modern date, min/max of DateOnly, leap year
         [TestCase(2024, 01, 01, 10, WeatherSummary.Mild)]
         [TestCase(0001, 01, 01, 10, WeatherSummary.Mild)]
         [TestCase(9999, 12, 31, 10, WeatherSummary.Mild)]
         [TestCase(2024, 02, 29, 10, WeatherSummary.Mild)]
-        //Testing minimum Celsius, maximum integer for temperature
         [TestCase(2024, 01, 01, -273, WeatherSummary.Undefined)]
         [TestCase(2024, 01, 01, int.MaxValue, WeatherSummary.Undefined)]
-        //Testing all valid inputs for the Summary
         [TestCase(2024, 01, 01, 0, WeatherSummary.Undefined)]
         [TestCase(2024, 01, 01, 0, WeatherSummary.Freezing)]
         [TestCase(2024, 01, 01, 0, WeatherSummary.Bracing)]
@@ -48,14 +43,17 @@ namespace SDET_Assessment
         [TestCase(2024, 01, 01, 0, WeatherSummary.Balmy)]
         [TestCase(2024, 01, 01, 0, WeatherSummary.Hot)]
         [TestCase(2024, 01, 01, 0, WeatherSummary.Sweltering)]
-        [TestCase(2024, 01, 01, 0, WeatherSummary.Scorching)]
+        [TestCase(2024, 01, 01, 0, WeatherSummary.Scorching),
+            Description("Testing what should be valid weather forecasts. A base case, min/max of DateOnly, " +
+                        "a leap year, min/max of Celsius, and all valid Weather Summaries. ")]
+
         public async Task POST_Weatherforecast_Returns_Created_StatusCode(int year, int month, int day, int temperatureC, WeatherSummary summary)
         {
             using HttpResponseMessage response = await httpClient.PostAsJsonAsync(
                 "weatherforecast",
                 new WeatherRecord(
                     Date: new DateOnly(year, month, day),
-                    TemperatureC: temperatureC, 
+                    TemperatureC: temperatureC,
                     Summary: summary
                 ));
 
@@ -70,8 +68,8 @@ namespace SDET_Assessment
             var jsonResponse = await getResponse.Content.ReadAsStringAsync();
             TestContext.WriteLine("JSON RESPONSE");
             TestContext.WriteLine(jsonResponse);
-            
-            Assert.DoesNotThrow(() => JArray.Parse(jsonResponse)); 
+
+            Assert.DoesNotThrow(() => JArray.Parse(jsonResponse));
         }
 
         [TestCase(2024, 01, 01, 10, WeatherSummary.Mild)]

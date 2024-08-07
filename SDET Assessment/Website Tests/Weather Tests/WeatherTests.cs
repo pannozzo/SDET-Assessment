@@ -53,7 +53,7 @@ namespace SDET_Assessment
             IWebElement fileInput = driver.FindElement(By.CssSelector("input[type=file]"));
             fileInput.SendKeys(uploadFile);
             
-            bool b = wait.Until(driver => driver.FindElement(By.ClassName("table")).Text != originalTableText);
+            wait.Until(d => driver.FindElement(By.ClassName("table")).Text != originalTableText);
             IWebElement uploadedTable = wait.Until(d => driver.FindElement(By.ClassName("table")));
             string uploadedTableText = uploadedTable.Text;
 
@@ -83,7 +83,7 @@ namespace SDET_Assessment
             IWebElement fileInput = driver.FindElement(By.CssSelector("input[type=file]"));
             fileInput.SendKeys(uploadFile);
 
-            bool b = wait.Until(driver => driver.FindElement(By.ClassName("table")).Text != originalTableText);
+            wait.Until(d => driver.FindElement(By.ClassName("table")).Text != originalTableText);
             IWebElement uploadedTable = wait.Until(d => driver.FindElement(By.ClassName("table")));
             string uploadedTableText = uploadedTable.Text;
 
@@ -142,7 +142,7 @@ namespace SDET_Assessment
             IWebElement fileInput = driver.FindElement(By.CssSelector("input[type=file]"));
             fileInput.SendKeys(uploadFile);
 
-            wait.Until(driver => driver.FindElement(By.ClassName("table")).Text != originalTableText);
+            wait.Until(d => driver.FindElement(By.ClassName("table")).Text != originalTableText);
             IWebElement uploadedTable = wait.Until(d => driver.FindElement(By.ClassName("table")));
             string uploadedTableText = uploadedTable.Text;
 
@@ -174,7 +174,7 @@ namespace SDET_Assessment
             IWebElement fileInput = driver.FindElement(By.CssSelector("input[type=file]"));
             fileInput.SendKeys(uploadFile);
 
-            wait.Until(driver => driver.FindElement(By.ClassName("table")).Text != originalTableText);
+            wait.Until(d => driver.FindElement(By.ClassName("table")).Text != originalTableText);
             IWebElement uploadedTable = wait.Until(d => driver.FindElement(By.ClassName("table")));
             string uploadedTableText = uploadedTable.Text;
 

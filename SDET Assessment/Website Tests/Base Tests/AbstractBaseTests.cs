@@ -1,9 +1,9 @@
-using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium;
-using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 using static SDET_Assessment.Resources;
 
 namespace SDET_Assessment
@@ -59,6 +59,30 @@ namespace SDET_Assessment
             return isFound;
         }
 
+        public string GetTextFromElement(By locator)
+        {
+            string text = "";
+            try
+            {
+                IWebElement element = wait.Until(ExpectedConditions.ElementIsVisible(locator));
+                try
+                {
+                    text = element.Text;
+                }
+
+                catch (StaleElementReferenceException)
+                {
+                    GetTextFromElement(locator);
+                }
+            }
+            catch (StaleElementReferenceException)
+            {
+                GetTextFromElement(locator);
+            }
+
+            return text;
+        }
+
         public IWebDriver CreateDriver()
         {
             SetBrowserDownloadLocation();
@@ -86,7 +110,7 @@ namespace SDET_Assessment
             chromeOptions.AddUserProfilePreference("download.directory_upgrade", true);
             chromeOptions.AddUserProfilePreference("intl.accept_languages", "nl");
             chromeOptions.AddUserProfilePreference("disable-popup-blocking", "true");
-            
+
             //Not implemented
             //firefoxOptions = new FirefoxOptions();
             //edgeOptions = new EdgeOptions();
@@ -104,7 +128,7 @@ namespace SDET_Assessment
         private ChromeOptions chromeOptions;
         private FirefoxOptions firefoxOptions;
         private EdgeOptions edgeOptions;
-        public string downloadFilePath = Path.Combine(Path.GetTempPath(), "downloadedForecast");
+        public string downloadFilePath = Path.Combine(Path.GetTempPath(), @"downloadedForecast\forecast.json");
 
         protected AbstractBaseTests(BrowserType browserType) => this.browser = browserType;
 

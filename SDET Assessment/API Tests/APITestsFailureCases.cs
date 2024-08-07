@@ -1,10 +1,9 @@
+using Newtonsoft.Json.Linq;
 using System.Net;
-using System.Net.Http.Json;
 using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text.RegularExpressions;
 using static SDET_Assessment.Resources;
-using OpenQA.Selenium.DevTools.V125.Runtime;
-using Newtonsoft.Json.Linq;
 
 namespace SDET_Assessment
 {
@@ -37,8 +36,9 @@ namespace SDET_Assessment
 
         }
 
-        //Minimum temperature Celsius is -273.15, values under this should be invalid & rejected
-        [TestCase(2024, 01, 01, -300, WeatherSummary.Mild)]
+        
+        [TestCase(2024, 01, 01, -300, WeatherSummary.Mild),
+            Description("Minimum temperature Celsius is -273.15, values under this should be invalid & rejected")]
         public async Task POST_Invalid_Temperature_Should_Return_BadRequest(int year, int month, int day, int temperatureC, WeatherSummary summary)
         {
             using HttpResponseMessage response = await httpClient.PostAsJsonAsync(
@@ -52,9 +52,9 @@ namespace SDET_Assessment
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.BadRequest));
         }
 
-        //Summaries outside the enumeration range of [0,10] should not be accepted
         [TestCase(2024, 01, 01, 10, InvalidWeatherSummary.LowInvalidSummary)]
-        [TestCase(2024, 01, 01, 10, InvalidWeatherSummary.HighInvalidSummary)]
+        [TestCase(2024, 01, 01, 10, InvalidWeatherSummary.HighInvalidSummary),
+            Description("Summaries outside the enumeration range of [0,10] should not be accepted")]
         public async Task POST_Invalid_Summary_Should_Return_BadRequest(int year, int month, int day, int temperatureC, InvalidWeatherSummary summary)
         {
             using HttpResponseMessage response = await httpClient.PostAsJsonAsync(
@@ -68,9 +68,8 @@ namespace SDET_Assessment
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.BadRequest));
         }
 
-        //The API should handle integer overflows
-        //See README.md for notes
-        [TestCase(2024, 01, 01, int.MaxValue, WeatherSummary.Undefined)]
+        [TestCase(2024, 01, 01, int.MaxValue, WeatherSummary.Undefined),
+            Description("The API should handle integer overflows, see README.md for notes")]
         public async Task POST_High_Celsius_Temperature_Should_Not_Integer_Overflow_Fahrenheit(int year, int month, int day, int temperatureC, WeatherSummary summary)
         {
             using HttpResponseMessage postResponse = await httpClient.PostAsJsonAsync(
@@ -119,9 +118,8 @@ namespace SDET_Assessment
                 }
 
             }
-            
-            Assert.That(POST_request_failed, Is.True);
 
+            Assert.That(POST_request_failed, Is.True);
         }
     }
 }

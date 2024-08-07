@@ -77,14 +77,16 @@ namespace SDET_Assessment
 
         [TestCase("Home")]
         [TestCase("Counter")]
-        [TestCase("Weather")]
+        [TestCase("Weather"),
+            Description("The aria-current=page indicates to users of assistive technology which page" +
+                        "in a navigation menu they're currently on, this should be set to the current page.")]
 
         public void Aria_Current_Is_Set_To_Page_On_Navigation_Item_That_Matches_Current_Page(string targetPage)
         {
             ClickElement(By.LinkText(targetPage));
             wait.Until(ExpectedConditions.TitleIs(targetPage));
 
-            IWebElement currentPageLink = wait.Until(driver => driver.FindElement(By.LinkText(targetPage)));
+            IWebElement currentPageLink = wait.Until(d => driver.FindElement(By.LinkText(targetPage)));
 
             string ariaCurrent = currentPageLink.GetAttribute("aria-current");
 
@@ -94,7 +96,9 @@ namespace SDET_Assessment
 
         [TestCase("Home")]
         [TestCase("Counter")]
-        [TestCase("Weather")]
+        [TestCase("Weather"),
+            Description("The aria-current attribute should only highlight the current page's link" +
+                        "to aid assistive technology users with page navigation")]
 
         public void Aria_Current_Is_Not_Set_On_Navigation_Item_That_Do_Not_Match_Current_Page(string targetPage)
         {
@@ -105,18 +109,18 @@ namespace SDET_Assessment
 
             if(targetPage == "Home")
             {
-                pageLinks.Add(wait.Until(driver => driver.FindElement(By.LinkText("Counter"))));
-                pageLinks.Add(wait.Until(driver => driver.FindElement(By.LinkText("Weather"))));
+                pageLinks.Add(wait.Until(d => driver.FindElement(By.LinkText("Counter"))));
+                pageLinks.Add(wait.Until(d   => driver.FindElement(By.LinkText("Weather"))));
             }
             else if(targetPage == "Counter")
             {
-                pageLinks.Add(wait.Until(driver => driver.FindElement(By.LinkText("Home"))));
-                pageLinks.Add(wait.Until(driver => driver.FindElement(By.LinkText("Weather"))));
+                pageLinks.Add(wait.Until(d => driver.FindElement(By.LinkText("Home"))));
+                pageLinks.Add(wait.Until(d => driver.FindElement(By.LinkText("Weather"))));
             }
             else if(targetPage == "Weather")
             {
-                pageLinks.Add(wait.Until(driver => driver.FindElement(By.LinkText("Home"))));
-                pageLinks.Add(wait.Until(driver => driver.FindElement(By.LinkText("Counter"))));
+                pageLinks.Add(wait.Until(d => driver.FindElement(By.LinkText("Home"))));
+                pageLinks.Add(wait.Until(d => driver.FindElement(By.LinkText("Counter"))));
             }
 
             string ariaCurrent1 = pageLinks[0].GetAttribute("aria-current");
@@ -129,12 +133,13 @@ namespace SDET_Assessment
             });
         }
 
-        [Test]
+        [Test, Description("Setting collapsible menu items to aria-hidden=true can aid assistive" +
+                            "technology users with page navigation by not cluttering the primary content of the page")]
         public void Collapsible_Menu_Items_Have_Aria_Hidden_Set_To_True()
         {
-            IWebElement homeMenuOption = wait.Until(driver => driver.FindElement(By.ClassName("bi-house-door-fill-nav-menu")));
-            IWebElement counterMenuOption = wait.Until(driver => driver.FindElement(By.ClassName("bi-plus-square-fill-nav-menu")));
-            IWebElement weatherMenuOption = wait.Until(driver => driver.FindElement(By.ClassName("bi-list-nested-nav-menu")));
+            IWebElement homeMenuOption = wait.Until(d => driver.FindElement(By.ClassName("bi-house-door-fill-nav-menu")));
+            IWebElement counterMenuOption = wait.Until(d => driver.FindElement(By.ClassName("bi-plus-square-fill-nav-menu")));
+            IWebElement weatherMenuOption = wait.Until(d => driver.FindElement(By.ClassName("bi-list-nested-nav-menu")));
 
             string ariaHiddenHome = homeMenuOption.GetAttribute("aria-hidden");
             string ariaHiddenCounter = counterMenuOption.GetAttribute("aria-hidden");
